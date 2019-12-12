@@ -88,7 +88,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.11764705882352941" green="0.16078431372549018" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.16078431369999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="L45-Yt-s5n"/>
                     </view>
                     <navigationItem key="navigationItem" title="TÂCHES" id="34k-vz-hjA">

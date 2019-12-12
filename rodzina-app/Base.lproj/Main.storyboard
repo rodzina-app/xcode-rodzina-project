@@ -40,7 +40,7 @@
         <scene sceneID="FTd-a6-0R9">
             <objects>
                 <viewControllerPlaceholder storyboardName="taches-rodzina" id="bD3-B7-U3G" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="aTb-oB-vtC"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="icons8-liste-numérotée-100.png" id="aTb-oB-vtC"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U21-Bg-Epw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,6 +58,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icons8-liste-numérotée-100.png" width="16" height="16"/>
         <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
     </resources>
 </document>

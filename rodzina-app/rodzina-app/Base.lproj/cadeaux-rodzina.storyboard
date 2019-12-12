@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d3H-ar-YsI">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Prix-->
+        <!--PRIX-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rodzina_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,17 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ril-po-GSq">
-                                <rect key="frame" x="0.0" y="32" width="414" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="414" id="IJu-Ge-9dy"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="CADEAUX" id="Hf3-Pb-KeJ">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yQF-Bs-Rtb"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aet-8p-gnO">
                                 <rect key="frame" x="21" y="168" width="136" height="128"/>
                                 <constraints>
@@ -107,11 +96,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1176470588" green="0.16078431369999999" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="aet-8p-gnO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="3LA-TH-B4Q"/>
                             <constraint firstItem="WI0-2m-FOQ" firstAttribute="top" secondItem="i9S-Di-wMr" secondAttribute="bottom" constant="7" id="7IN-YQ-6V3"/>
                             <constraint firstItem="L4v-Qy-4U6" firstAttribute="centerX" secondItem="aet-8p-gnO" secondAttribute="centerX" id="7fT-Go-fd1"/>
                             <constraint firstItem="ORT-pK-I7x" firstAttribute="top" secondItem="L4v-Qy-4U6" secondAttribute="bottom" constant="75" id="7nF-OR-JUG"/>
-                            <constraint firstItem="i9S-Di-wMr" firstAttribute="top" secondItem="ril-po-GSq" secondAttribute="bottom" constant="92" id="9Vx-3z-5b2"/>
-                            <constraint firstItem="ril-po-GSq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B6o-vQ-iA9"/>
                             <constraint firstItem="InX-BS-3fQ" firstAttribute="centerX" secondItem="ORT-pK-I7x" secondAttribute="centerX" id="Bad-ER-9Qe"/>
                             <constraint firstItem="bn9-Sa-zl4" firstAttribute="top" secondItem="YNf-da-D72" secondAttribute="bottom" constant="8" id="Bck-fV-I2y"/>
                             <constraint firstItem="L4v-Qy-4U6" firstAttribute="top" secondItem="aet-8p-gnO" secondAttribute="bottom" constant="6" id="Cgm-a5-ANM"/>
@@ -122,21 +110,16 @@
                             <constraint firstItem="InX-BS-3fQ" firstAttribute="top" secondItem="ORT-pK-I7x" secondAttribute="bottom" constant="8" id="M0L-eO-Amb"/>
                             <constraint firstItem="lyK-RZ-B1E" firstAttribute="top" secondItem="05l-ac-fYg" secondAttribute="bottom" constant="7" id="S9D-oi-A0r"/>
                             <constraint firstItem="bn9-Sa-zl4" firstAttribute="centerX" secondItem="YNf-da-D72" secondAttribute="centerX" id="Smh-cB-JqE"/>
-                            <constraint firstItem="ril-po-GSq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Smk-C6-WcQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i9S-Di-wMr" secondAttribute="trailing" constant="28" id="Wf4-CP-Enx"/>
-                            <constraint firstItem="aet-8p-gnO" firstAttribute="top" secondItem="ril-po-GSq" secondAttribute="bottom" constant="92" id="ZCB-Ys-tLN"/>
                             <constraint firstItem="05l-ac-fYg" firstAttribute="top" secondItem="WI0-2m-FOQ" secondAttribute="bottom" constant="74" id="ZDM-1E-3py"/>
                             <constraint firstItem="lyK-RZ-B1E" firstAttribute="centerX" secondItem="05l-ac-fYg" secondAttribute="centerX" id="bSc-IB-DMi"/>
                             <constraint firstItem="05l-ac-fYg" firstAttribute="leading" secondItem="ORT-pK-I7x" secondAttribute="trailing" constant="93" id="c5L-E4-KOd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zgh-9D-nfk" secondAttribute="trailing" constant="28" id="cKf-ce-X9O"/>
-                            <constraint firstItem="i9S-Di-wMr" firstAttribute="top" secondItem="ril-po-GSq" secondAttribute="bottom" constant="92" id="er3-Ba-QX3"/>
-                            <constraint firstItem="ril-po-GSq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gFa-ax-cpU"/>
                             <constraint firstItem="Zgh-9D-nfk" firstAttribute="leading" secondItem="YNf-da-D72" secondAttribute="trailing" constant="93" id="hFr-CM-k2k"/>
                             <constraint firstItem="Zgh-9D-nfk" firstAttribute="leading" secondItem="YNf-da-D72" secondAttribute="trailing" constant="93" id="hQh-Sp-1X5"/>
+                            <constraint firstItem="aet-8p-gnO" firstAttribute="top" secondItem="i9S-Di-wMr" secondAttribute="top" id="ieh-n6-YKP"/>
                             <constraint firstItem="WI0-2m-FOQ" firstAttribute="top" secondItem="i9S-Di-wMr" secondAttribute="bottom" constant="7" id="j4g-hv-UDq"/>
                             <constraint firstItem="2tA-lm-Nvk" firstAttribute="top" secondItem="Zgh-9D-nfk" secondAttribute="bottom" constant="7" id="jXU-3D-bpb"/>
-                            <constraint firstItem="aet-8p-gnO" firstAttribute="top" secondItem="ril-po-GSq" secondAttribute="bottom" constant="92" id="jzj-Jp-nQp"/>
-                            <constraint firstItem="ril-po-GSq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="32" id="kZM-Fe-mG3"/>
                             <constraint firstItem="05l-ac-fYg" firstAttribute="leading" secondItem="ORT-pK-I7x" secondAttribute="trailing" constant="93" id="m5J-uU-hBZ"/>
                             <constraint firstItem="WI0-2m-FOQ" firstAttribute="centerX" secondItem="i9S-Di-wMr" secondAttribute="centerX" id="of6-o8-eKl"/>
                             <constraint firstItem="Zgh-9D-nfk" firstAttribute="top" secondItem="lyK-RZ-B1E" secondAttribute="bottom" constant="69" id="qQT-kQ-RFu"/>
@@ -146,12 +129,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Prix" image="icons8-christmas-gift-60" id="6gA-z0-weU"/>
+                    <navigationItem key="navigationItem" title="PRIX" id="Hf3-Pb-KeJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yQF-Bs-Rtb"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
+            <point key="canvasLocation" x="1957.9710144927537" y="133.92857142857142"/>
         </scene>
         <!--ajouter-cadeaux-->
         <scene sceneID="WZY-nH-igN">
@@ -159,7 +144,26 @@
                 <viewControllerPlaceholder storyboardName="ajouter-cadeaux" id="KOD-pj-MqF" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEh-IC-WBK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1875" y="143"/>
+            <point key="canvasLocation" x="2784.057971014493" y="142.63392857142856"/>
+        </scene>
+        <!--Prix-->
+        <scene sceneID="paD-DF-Tqt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d3H-ar-YsI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Prix" image="icons8-christmas-gift-60" id="6gA-z0-weU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zVo-wa-0Mf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dfY-J9-xXo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShS-aj-dVr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
         </scene>
     </scenes>
     <resources>

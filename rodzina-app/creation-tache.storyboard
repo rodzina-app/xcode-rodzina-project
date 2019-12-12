@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wFJ-JC-A9p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BSO-Vc-t08">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--CRÉER SA TÂCHE-->
         <scene sceneID="I0i-7X-wLI">
             <objects>
                 <viewController id="wFJ-JC-A9p" customClass="ViewController" customModule="rodzina_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,15 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qn3-q0-uMO">
-                                <rect key="frame" x="0.0" y="31" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="CREER SA TACHE" id="XVb-NX-Wdc">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" systemItem="cancel" id="rWe-ab-Qeg"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DETAILS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eX9-Hb-G2l">
                                 <rect key="frame" x="169" y="109" width="77" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -94,6 +85,9 @@
                         <color key="backgroundColor" red="0.11764705882352941" green="0.16078431372549018" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="UYO-0f-KHD"/>
                     </view>
+                    <navigationItem key="navigationItem" title="CRÉER SA TÂCHE" id="XVb-NX-Wdc">
+                        <barButtonItem key="leftBarButtonItem" title="Item" systemItem="cancel" id="rWe-ab-Qeg"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="dateDeDelai" destination="0UB-XZ-1Pz" id="fmk-aV-vRt"/>
                         <outlet property="descriptionTache" destination="zY0-zi-0TK" id="jPO-jA-B3W"/>
@@ -103,6 +97,24 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zUh-89-Qq0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2775.36231884058" y="-513.61607142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2Qe-IM-jLj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BSO-Vc-t08" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fgt-qk-Qkn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wFJ-JC-A9p" kind="relationship" relationship="rootViewController" id="iFy-yA-o22"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1qA-d6-A82" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1865.217391304348" y="-513.61607142857144"/>
         </scene>

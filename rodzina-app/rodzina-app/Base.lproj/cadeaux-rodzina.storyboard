@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Prix-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rodzina_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -146,7 +146,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="6gA-z0-weU"/>
+                    <tabBarItem key="tabBarItem" title="Prix" image="icons8-christmas-gift-60" id="6gA-z0-weU"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -162,4 +162,7 @@
             <point key="canvasLocation" x="1875" y="143"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-christmas-gift-60" width="30" height="30"/>
+    </resources>
 </document>

@@ -30,7 +30,7 @@
         <scene sceneID="lJb-mr-AxQ">
             <objects>
                 <viewControllerPlaceholder storyboardName="profil-rodzina" id="Oao-kC-BMi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="RFl-Zu-1A3"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="square.and.arrow.up" catalog="system" id="RFl-Zu-1A3"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9x3-B7-54d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,4 +57,7 @@
             <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+    </resources>
 </document>

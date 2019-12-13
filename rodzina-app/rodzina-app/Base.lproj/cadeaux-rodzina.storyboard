@@ -130,7 +130,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="PRIX" id="Hf3-Pb-KeJ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yQF-Bs-Rtb"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yQF-Bs-Rtb">
+                            <connections>
+                                <segue destination="KOD-pj-MqF" kind="presentation" id="9QM-1x-DQF"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

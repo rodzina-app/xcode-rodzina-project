@@ -93,18 +93,7 @@
                                                     <rect key="frame" x="87" y="34" width="240" height="219"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xm8-0x-m3L">
-                                                    <rect key="frame" x="172.5" y="131" width="69" height="41"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                    <state key="normal" title="Button">
-                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                </button>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="xm8-0x-m3L" firstAttribute="centerX" secondItem="Rm8-Go-qaa" secondAttribute="centerX" id="OJH-KO-PW0"/>
-                                                <constraint firstItem="xm8-0x-m3L" firstAttribute="centerY" secondItem="Rm8-Go-qaa" secondAttribute="centerY" id="bLf-Kg-jcb"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>

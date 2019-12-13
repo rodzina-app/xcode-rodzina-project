@@ -85,7 +85,7 @@
                                                         <fragment content="participants">
                                                             <attributes>
                                                                 <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                                                <font key="NSFont" metaFont="menu" size="14"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -123,7 +123,11 @@
                             <outlet property="delegate" destination="2Bb-Yp-oiP" id="foF-6g-BMW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ycV-3k-mcg"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="ycV-3k-mcg">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="bTf-LE-eLX"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1S-VU-Emo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
